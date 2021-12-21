@@ -20,7 +20,8 @@ let path;
 let vehicles = [];
 
 function setup() {
-  createCanvas(640, 360);
+  canvas = createCanvas(640, 360);
+  
   // Call a function to generate new Path object
   newPath();
 
@@ -34,7 +35,7 @@ function setup() {
 }
 
 function draw() {
-  background(240);
+  background(255);
   // Display the path
   path.display();
 
