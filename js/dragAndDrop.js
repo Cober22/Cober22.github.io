@@ -76,11 +76,12 @@
 // };
 
 function sendEmail() {
-    console.log("test 10")
+    console.log("test 11")
     Email.send({
         Host: "smtp.elasticemail.com",
         Username: "jorgetejadolopez@gmail.com",
         Password: "8ABCC2CA6A66023ADB089791A021891A518D",
+        To: "jtejado@pendulostudios.com",
         From: "jorgetejadolopez@gmail.com",
         Subject: "Sending Email using javascript",
         Body: "BodyyyNew",
