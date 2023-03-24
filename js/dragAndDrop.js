@@ -77,10 +77,11 @@
 
 function sendEmail() {
     Email.send({
+        SecureToken : "175b95c4-aaa8-4847-8c51-a60692467357",
         To: "jtejado@pendulostudios.com",
         From: "jorgetejadolopez@gmail.com",
         Subject: "Sending Email using javascript",
-        Body: inputText.innerText,
+        Body: "asdadsada",
         // Attachments: [
         // {
         //     name: "File_Name_with_Extension",
