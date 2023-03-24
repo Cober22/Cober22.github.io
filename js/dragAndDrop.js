@@ -76,15 +76,15 @@
 // };
 
 function sendEmail() {
-    console.log("test 6")
+    console.log("test 7")
     Email.send({
         Host: "smtp.gmail.com",
         Username: "jtejado@pendulostudios.com",
-        Password: "jorgediego10",
+        Password: "e5fi62kvChmxB3t",
         To: "jtejado@pendulostudios.com",
         From: "jtejado@pendulostudios.com",
         Subject: "Sending Email using javascript",
-        Body: inputText.innerText,
+        Body: "cuerpo del mensaje",
         // Attachments: [
         // {
         //     name: "File_Name_with_Extension",
