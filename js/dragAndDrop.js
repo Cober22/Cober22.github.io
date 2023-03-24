@@ -77,7 +77,7 @@
 
 function sendEmail() {
     Email.send({
-        Host: "smtp.elasticemail.com",
+        Host: "smtp.gmail.com",
         Username: "jorgetejadolopez@gmail.com",
         Password: "8ABCC2CA6A66023ADB089791A021891A518D",
         To: "jtejado@pendulostudios.com",
