@@ -76,11 +76,9 @@
 // };
 
 function sendEmail() {
-    console.log("test 7")
+    console.log("test 8")
     Email.send({
-        Host: "smtp.gmail.com",
-        Username: "jtejado@pendulostudios.com",
-        Password: "e5fi62kvChmxB3t",
+        SecureToken: "469c3c0d-3811-455e-a6e7-b289af235e32",
         To: "jtejado@pendulostudios.com",
         From: "jtejado@pendulostudios.com",
         Subject: "Sending Email using javascript",
