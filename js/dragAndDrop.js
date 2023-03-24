@@ -77,11 +77,13 @@
 
 function sendEmail() {
     Email.send({
-        SecureToken : "175b95c4-aaa8-4847-8c51-a60692467357",
+        Host: "smtp.elasticemail.com",
+        Username: "jorgetejadolopez@gmail.com",
+        Password: "8ABCC2CA6A66023ADB089791A021891A518D",
         To: "jtejado@pendulostudios.com",
         From: "jorgetejadolopez@gmail.com",
         Subject: "Sending Email using javascript",
-        Body: "asdadsada",
+        Body: inputText.innerText,
         // Attachments: [
         // {
         //     name: "File_Name_with_Extension",
