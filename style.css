@@ -1,0 +1,75 @@
+:root {
+    --left-margin: 2%;
+}
+:root.light {
+    --bg-color: "ff0000";
+    --text-color: "000000";
+    --body-color: rgb(248, 249, 250);
+    --btn-color: rgb(95, 129, 205);
+}
+
+:root.dark {
+    --bg-color: "111111";
+    --text-color: "ffffff";
+    --body-color: rgb(33, 37, 41);
+    --btn-color: rgb(68, 105, 146);
+}
+
+body {
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: calc(12px + 4 * (100vw - 320px) / 1600);
+    background: var(--body-color);
+}
+
+.input-group-text{
+    background-color: var(--btn-color) !important;
+    width: 250px;
+    text-align: right;
+}
+
+.navbar-brand {
+    margin-left: var(--left-margin);
+    color: rgb(68, 105, 146);
+}
+
+.navbar-brand:link {
+    margin-left: var(--left-margin);
+    color: rgb(68, 105, 146);
+}
+
+.navbar-brand:hover {
+    margin-left: var(--left-margin);
+    color: rgb(68, 105, 146);
+}
+
+.navbar-brand:visited {
+    margin-left: var(--left-margin);
+    color: rgb(68, 105, 146);
+}
+
+.navbar-brand:active {
+    margin-left: var(--left-margin);
+    color: rgb(68, 105, 146);
+}
+
+.maindiv {
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.btn {
+    margin-top: 2%;
+}
+
+.grid{
+    display: grid;
+}
+
+.alert{
+    margin-top: 2%;
+}

@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FormTest</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <button id="buttonEmployment" class="button buttonEmployment">
-        QA info
-    </button>
-    <script src="js/formTest.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script
+            src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+
+        <div class="backgroundColor"></div>
+        <div class="backgroundImage"></div>
+        <div class="container">
+            <div class="form">
+
+                <div class="contact-info">
+                    <h3 class="title">Tools</h3>
+                    <p class="text">
+                        Can you trust your own mind? Immerse yourself in a psychological thriller of a new kind, 
+                        playing with the limits between reality and fantasy. 
+                        An original story about obsession, manipulation and madness.
+                    </p>
+                </div>
+
+                <div class="contact-form">
+                    <form action="index.html" autocomplete="off">
+                        <h3 class="title">Contact us</h3>
+
+                        <div class="input-container">
+                            <input type="text" name="name" placeholder="Username" class="input" />
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" placeholder="Email" class="input" />
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" placeholder="Phone" class="input" />
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" placeholder="Message" class="input"></textarea>
+                        </div>
+
+                        <script src="js/sendData.js"></script>
+
+                        <div class="containerPDF">
+                            <input placeholder="CV" type="file" id="upload-button" accept="application/pdf" hidden/>
+                            <label for="upload-button">CV</label>
+                            <div id="error"></div>
+                            <div id="pdf-display"></div>
+                        </div>
+                        
+                        <button onclick="buttonClick()" class="btn">Send</button>
+                        
+                    </form>
+                </div>
+
+                <script src="js/main.js"></script>
+        </div>
+
+    </body>
 </html>
